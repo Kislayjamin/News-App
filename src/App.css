@@ -1,3 +1,14 @@
+.card {
+  margin-top: 20px;
+  width: 85%;
+  margin:auto;
+  display: flex;
+  flex: right;
+}
+
+.container {
+  font-family: cursive;
+}
 .App {
   text-align: center;
 }
