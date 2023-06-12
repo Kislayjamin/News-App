@@ -8,7 +8,7 @@ export default function News() {
   const [data, setData] = useState([]);
   async function fetchData() {
     try {
-      const response = await fetch("'https://newsdata2.p.rapidapi.com/archive?apiKey=132967630amshbd517049698d0b4p1b4f86jsna7aa0fbfb2bb");
+      const response = await fetch("'https://newsdata2.p.rapidapi.com/archive?RapidAPI-Key=132967630amshbd517049698d0b4p1b4f86jsna7aa0fbfb2bb");
       const jsonData = await response.json();
       setData(jsonData.articles);
       console.log(jsonData.articles);
